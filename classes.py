@@ -114,7 +114,7 @@ class afc_device(object):
         return lines
 
     def plotting(self,samplerate):
-        '''функция построения анимации выходного и входного сигналов'''
+        '''функция подготовки анимации выходного и входного сигналов'''
         global plotdata
         global lines
         global data_mean
